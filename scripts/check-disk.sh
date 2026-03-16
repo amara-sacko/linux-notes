@@ -10,3 +10,5 @@ if [ $DISK_USAGE -gt 80 ]; then
 else
         echo "Espace disque correct: $DISK_USAGE%"
 fi
+
+exit 0
